@@ -4,10 +4,12 @@ html {
   --link: #115ea3;
   --tagBg: #e0e5f4;
   --tagText: #525e83;
-  --buttonBg: #262058;
+  --buttonBg: #5c52b4;
   --buttonText: #ffffff;
+  --buttonBorder: 1px #393980 solid;
   --contentBg: #ffffff;
-  --cardBg: #;
+  --cardBg: #f8faff;
+  --cardBorder: 1px #dedeec solid;
   --metaText: #999;
   @media (prefers-color-scheme: dark) {
     --text: #ffffff;
@@ -17,8 +19,10 @@ html {
     --tagText: #c2c7e2;
     --buttonBg: #262058;
     --buttonText: #ffffff;
+    --buttonBorder: 1px #4a4a74 solid;
     --contentBg: #2e2e4e;
     --cardBg: #38385c;
+    --cardBorder: 1px #4f4f7e solid;
     --metaText: #88889b;
   }
 }
