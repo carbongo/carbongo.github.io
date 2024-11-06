@@ -1,0 +1,24 @@
+html {
+  --text: #000000;
+  --globalBg: #e0e5f4;
+  --link: #115ea3;
+  --tagBg: #e0e5f4;
+  --tagText: #525e83;
+  --buttonBg: #262058;
+  --buttonText: #ffffff;
+  --contentBg: #ffffff;
+  --cardBg: #;
+  --metaText: #999;
+  @media (prefers-color-scheme: dark) {
+    --text: #ffffff;
+    --globalBg: #1a1a2e;
+    --link: #7cc0ff;
+    --tagBg: var(--globalBg);
+    --tagText: #c2c7e2;
+    --buttonBg: #262058;
+    --buttonText: #ffffff;
+    --contentBg: #2e2e4e;
+    --cardBg: #38385c;
+    --metaText: #88889b;
+  }
+}

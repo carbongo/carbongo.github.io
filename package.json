@@ -1,0 +1,30 @@
+{
+  "name": "carbongo.github.io",
+  "version": "1.0.0",
+  "description": "A personal webpage",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carbongo"
+  },
+  "author": "Georgii Antipin",
+  "license": "proprietary",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "typescript": "^5.6.3",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
